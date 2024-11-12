@@ -3,79 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Giant Properti</title>
+    <title>The Giant Property</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>The Giant Properti</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="beli.html">Beli</a></li>
-                <li><a href="sewa.html">Sewa</a></li>
-                <li><a href="exhibition.html">Exhibition</a></li>
-                <li><a href="auth.html">Login</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <h2>Selamat Datang di Properti Impian</h2>
-        <p>Temukan properti terbaik sesuai kebutuhan Anda.</p>
-    </main>
-    <section class="property-gallery">
-        <h3>Galeri Properti</h3>
-        <div class="gallery">
-            <!-- Properti 1-9 -->
-            <div class="property-card">
-                <img src="assets/properti1.jpg" alt="Properti 1">
-                <h4>Rumah Modern</h4>
-                <p>Harga: Rp 1,500,000,000</p>
+    <div class="container">
+        <aside class="sidebar">
+            <h1 class="title">The Giant Property</h1>
+            <nav class="menu-item">
+                <button> <a href="auth.html">Account</a></button>
+            </nav>
+        </aside>
+        <main class="main-content">
+            <input type="text" class="search-bar" placeholder="search">
+            <h2>Home</h2>
+            <div class="properties-grid">
+                <div class="property-card">
+                    <img src="property.jpg" alt="Property">
+                    <p>Properties price</p>
+                    <button class="property-button">View Details</button>
+                </div>
+                <div class="property-card">
+                    <img src="property.jpg" alt="Property">
+                    <p>Properties price</p>
+                    <button class="property-button">View Details</button>
+                </div>
+                <div class="property-card">
+                    <img src="property.jpg" alt="Property">
+                    <p>Properties price</p>
+                    <button class="property-button">View Details</button>
+                </div>
+                <div class="property-card">
+                    <img src="property.jpg" alt="Property">
+                    <p>Properties price</p>
+                    <button class="property-button">View Details</button>
+                </div>
+                <div class="property-card">
+                    <img src="property.jpg" alt="Property">
+                    <p>Properties price</p>
+                    <button class="property-button">View Details</button>
+                </div>
+                <div class="property-card">
+                    <img src="property.jpg" alt="Property">
+                    <p>Properties price</p>
+                    <button class="property-button">View Details</button>
+                </div>
             </div>
-            <div class="property-card">
-                <img src="img/properti2.jpg" alt="Properti 2">
-                <h4>Rumah Mewah</h4>
-                <p>Harga: Rp 3,800,000,000</p>
-            </div>
-            <div class="property-card">
-                <img src="img/properti3.jpg" alt="Properti 3">
-                <h4>Apartemen City View</h4>
-                <p>Harga: Rp 1,200,000,000</p>
-            </div>
-            <div class="property-card">
-                <img src="img/properti4.jpg" alt="Properti 4">
-                <h4>Villa Pantai</h4>
-                <p>Harga: Rp 5,000,000,000</p>
-            </div>
-            <div class="property-card">
-                <img src="img/properti5.jpg" alt="Properti 5">
-                <h4>Rumah Minimalis</h4>
-                <p>Harga: Rp 900,000,000</p>
-            </div>
-            <div class="property-card">
-                <img src="img/properti6.jpg" alt="Properti 6">
-                <h4>Apartemen Studio</h4>
-                <p>Harga: Rp 750,000,000</p>
-            </div>
-            <div class="property-card">
-                <img src="img/properti7.jpg" alt="Properti 7">
-                <h4>Rumah Klasik</h4>
-                <p>Harga: Rp 2,000,000,000</p>
-            </div>
-            <div class="property-card">
-                <img src="img/properti8.jpg" alt="Properti 8">
-                <h4>Rumah Pedesaan</h4>
-                <p>Harga: Rp 600,000,000</p>
-            </div>
-            <div class="property-card">
-                <img src="img/properti9.jpg" alt="Properti 9">
-                <h4>Rumah Cluster</h4>
-                <p>Harga: Rp 1,800,000,000</p>
-            </div>
-        </div>
-        
-    <footer>
-        <p>&copy; 2024 The Giant Properti.</p>
-    </footer>
+        </main>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
